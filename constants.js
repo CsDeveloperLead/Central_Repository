@@ -1,0 +1,1 @@
+export const DB_NAME = 'YOUR DATABASE NAME'  // you can also store the DB Name in the env
