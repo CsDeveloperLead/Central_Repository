@@ -2,7 +2,6 @@ import { User } from "../model/user.model.js";
 import jwt from 'jsonwebtoken';
 import twilio from 'twilio'
 import { OAuth2Client } from 'google-auth-library'
-import { sendContactToAdmin } from "./emailServices.js";
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID; // Your Twilio Account SID
 const authToken = process.env.TWILIO_AUTH_TOKEN; // Your Twilio Auth Token
